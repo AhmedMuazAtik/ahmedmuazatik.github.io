@@ -13,7 +13,7 @@ const projectData = [
     id: "sosyalmedya",
     refKey: "sosyalmedya",
     title: "Sosyal Medya Yönetimi",
-    subtitle: "Yönetmiş olduğum sosyal medya hesaplarıyla ilgili dokümantasyonlar.",
+    subtitle: "Geçmiş ve güncel yönetimlerim.",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/sosyalmedyayonetimi.mp4",
     imgAlt: "Sosyal Medya Yönetimi",
@@ -38,79 +38,72 @@ const projectData = [
   },
   //--------------------------------------------------------------
   {
-    id: "Tutorial Kurslarım",
+    id: "Proje Dosyaları",
     refKey: "sosyalmedya",
-    title: "Tutorial Kurslarım",
-    subtitle: "Farklı alanlarda oluşturduğum kurslar.",
+    title: "Alınabilen Projelerim",
+    subtitle: "Satılık proje dosyalarım.",
     bg: "#E6F1FF",
-    video: "/images/projelerim/videos/tutorialkurslarım.mp4",
-    imgAlt: "Tutorial Kurslarım",
-    popupProjects: [
-
-    ],
+    video: "/images/projelerim/videos/alınabilenprojelerim.mp4",
+    imgAlt: "Proje Dosyaları",
+    directLink: ""
   },
   //--------------------------------------------------------------
   {
     id: "code",
     refKey: "code",
     title: "Yazılım Projelerim",
-    subtitle: "Öne çıkan projelerimi derledim, devamı GitHub sayfamda yer alıyor.",
+    subtitle: "Farklı dillerde yazdığım yazılım projeleri.",
     bg: "#FFEFDB",
     video: "/images/projelerim/videos/yazılımprojelerim.mp4",
     imgAlt: "Yazılım Projeleri",
-    popupProjects: [
-      {
-        icon: "",
-        title: "Car Brand Predictor",
-        description: "Araçları sınıflandırmak için geliştirdiğimiz yapay zeka modeli.",
-        thumbnail: "/images/projelerim/Yazılım/carbrandpredictor.png",
-        link: "https://github.com/AhmedMuazAtik/Derin-Ogrenme-Tabanli-Marka-Siniflandirma-ve-Gorsel-Oneri-Sistemi/tree/main/Derin%20%C3%96%C4%9Frenme%20Tabanl%C4%B1%20Marka%20S%C4%B1n%C4%B1fland%C4%B1rma%20ve%20G%C3%B6rsel%20%C3%96neri%20Sistemi",
-        dateRange: "Eylül 2024 - Haziran 2025"
-      },
-      {
-        icon: "",
-        title: "Promise12MSBench",
-        description: "Göğüs kanseri tespiti için geliştirdiğim yapay zeka modeli.",
-        thumbnail: "/images/projelerim/Yazılım/promise12msbench.png",
-        link: "https://github.com/AhmedMuazAtik/Promise12MSBench",
-        dateRange: "Şubat 2025 – Mart 2025"
-      },
-      {
-        icon: "",
-        title: "ChestxRay",
-        description: "Zatürre tespiti için geliştirdiğim yapay zeka modeli.",
-        thumbnail: "/images/projelerim/Yazılım/chestxray.png",
-        link: "https://github.com/AhmedMuazAtik/chestxray_classification",
-        dateRange: "Mart 2025 – Nisan 2025"
-      },
-      {
-        icon: "",
-        title: "BCI Classification",
-        description: "Meme kanseri tespitini HER2 skorları üstünden sınıflandıran yapay zeka modeli.",
-        thumbnail: "/images/projelerim/Yazılım/bci.png",
-        link: "https://github.com/AhmedMuazAtik/BCIClassification",
-        dateRange: "Ocak 2025 – Şubat 2025"
-      },
-      {
-        icon: "",
-        title: "16 Bit Datapath Design",
-        description: "16 bit sistem için Logisim ile datapath devresi tasarımı.",
-        thumbnail: "/images/projelerim/Yazılım/16bitdatapath.png",
-        link: "https://github.com/AhmedMuazAtik/16-Bit-Veri-Yolu-Islemcisi-Tasarimi",
-        dateRange: "Mayıs 2025 – Haziran 2025"
-      },
-      {
-        icon: "",
-        title: "Socket Programming",
-        description: "Server ve kullanıcılar senkron proje oluşturup grup konuşması yapabildiği bir yazılım.",
-        thumbnail: "/images/projelerim/Yazılım/socketprogramming.png",
-        link: "https://github.com/AhmedMuazAtik/SocketProgramming",
-        dateRange: "Mart 2023 – Nisan 2024"
-      },
-    ],
+    directLink: "https://github.com/AhmedMuazAtik"
   },
   //--------------------------------------------------------------
   {
+    id: "Main Hesabım",
+    refKey: "mainhesabim",
+    title: "Itzanemoia",
+    subtitle: "👁️ Mograph & AI",
+    bg: "#E6F1FF",
+    video: "/images/projelerim/videos/mainhesabım.mp4",
+    imgAlt: "Main Hesabım",
+    directLink: "https://www.instagram.com/itzanemoia/"
+  },
+  //--------------------------------------------------------------
+  {
+    id: "Sinematik Felsefe",
+    refKey: "sosyalmedya",
+    title: "Somniviant",
+    subtitle: "🪶 Philosophy, Religion, Poetry, Art",
+    bg: "#E6F1FF",
+    video: "/images/projelerim/videos/sinematikfelsefe.mp4",
+    imgAlt: "Sinematik Felsefe",
+    directLink: "https://www.instagram.com/somniviant/"
+  },
+  //--------------------------------------------------------------
+  {
+    id: "dini",
+    refKey: "dini",
+    title: "Vigilark",
+    subtitle: "🪶 Felsefe, Din, Şiir, Sanat",
+    bg: "#FFEFDB",
+    video: "/images/projelerim/videos/dinivideolarım.mp4",
+    imgAlt: "Vigilark",
+    directLink: "https://www.instagram.com/vigilark/"
+  },
+  //--------------------------------------------------------------
+  {
+    id: "Tutorial Kurslarım",
+    refKey: "sosyalmedya",
+    title: "Vanivornn",
+    subtitle: "✨ Simple Tutorial Videos",
+    bg: "#E6F1FF",
+    video: "/images/projelerim/videos/tutorialkurslarım.mp4",
+    imgAlt: "Tutorial Kurslarım",
+    directLink: "https://www.instagram.com/vanivornn/"
+  },
+  //--------------------------------------------------------------
+  /*{
     id: "Materyal Paketlerim",
     refKey: "sosyalmedya",
     title: "Materyal Paketlerim",
@@ -121,9 +114,9 @@ const projectData = [
     popupProjects: [
 
     ],
-  },
+  },*/
   //--------------------------------------------------------------
-  {
+  /*{
     id: "logo",
     refKey: "logo",
     title: "Logo Animasyonları",
@@ -131,442 +124,87 @@ const projectData = [
     bg: "#FFE7EB",
     video: "/images/projelerim/videos/logoanimasyonlari.mp4",
     imgAlt: "Logo Animasyonları",
-    popupProjects: [
-      {
-        icon: "",
-        title: "Arion GR Travel",
-        description: "Arion GR Travel'e tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/arion.png",
-        link: "https://youtube.com/shorts/21NZfI79OCQ?feature=share",
-        dateRange: "Kasım 2024 – Kasım 2024"
-      },
-      {
-        icon: "",
-        title: "Çoban Mustafa Paşa Vakfı",
-        description: "Çoban Mustafa Paşa Vakfı'na tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/coban.png",
-        link: "https://www.youtube.com/shorts/I5gP15U9iFc",
-        dateRange: "Kasım 2024 – Kasım 2024"
-      },
-      {
-        icon: "",
-        title: "Hayat Üniversitesi",
-        description: "Hayat Üniversitesi'ne tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/hayat.png",
-        link: "https://www.youtube.com/watch?v=dCZLSrufsX0",
-        dateRange: "Kasım 2024 – Kasım 2024"
-      },
-      {
-        icon: "",
-        title: "İznik Olive Peak",
-        description: "İznik Olive Peak'e tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/iznik.png",
-        link: "https://youtube.com/shorts/di58hQV5I4Q",
-        dateRange: "Kasım 2024 – Kasım 2024"
-      },
-      {
-        icon: "",
-        title: "Meyeka Medya",
-        description: "Meyeka Medya'ya tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/meyeka.png",
-        link: "https://youtube.com/shorts/KttohMWIHAQ",
-        dateRange: "Kasım 2024 – Kasım 2024"
-      },
-      {
-        icon: "",
-        title: "Seyr Dijital",
-        description: "Seyr Dijital'e tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/seyrdijital.png",
-        link: "https://youtube.com/shorts/ifInWCht1Mo",
-        dateRange: "Kasım 2024 – Kasım 2024"
-      },
-      {
-        icon: "",
-        title: "Servet Süt",
-        description: "Servet Süt'e tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/servetsut.png",
-        link: "https://youtube.com/shorts/UBkfxO_78OU",
-        dateRange: "Kasım 2024 – Kasım 2024"
-      },
-      {
-        icon: "",
-        title: "Signature",
-        description: "İmza olarak tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/sign.png",
-        link: "https://youtube.com/shorts/1SjuBxkU3Ks",
-        dateRange: "Eylül 2024 – Eylül 2024"
-      },
-      {
-        icon: "",
-        title: "Clone",
-        description: "Clone kelimesine tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/clone.png",
-        link: "https://www.youtube.com/watch?v=LR4yrLp10a4",
-        dateRange: "Eylül 2024 – Eylül 2024"
-      },
-      {
-        icon: "",
-        title: "itzanemoia",
-        description: "itzanemoia'ya tasarladığım mograph logo animasyonu.",
-        thumbnail: "/images/projelerim/Logo Tasarımları/itzanemoia.png",
-        link: "https://www.youtube.com/shorts/RDNAM0n_hIs",
-        dateRange: "Mayıs 2025 – Mayıs 2025"
-      },
-    ],
-  },
+    directLink: "https://www.instagram.com/obliqrium/"
+  },*/
   //--------------------------------------------------------------
   {
     id: "Yapay Zeka Projelerim",
     refKey: "sosyalmedya",
-    title: "Yapay Zeka Projelerim",
-    subtitle: "Yapay zeka ile ilgili tüm projelerim.",
+    title: "Querrial",
+    subtitle: "💡 Trend Artificial Intelligence Technologies",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/yapayzekaprojelerim.mp4",
     imgAlt: "Yapay Zeka Projelerim",
-    popupProjects: [
-
-    ],
+    directLink: "https://www.instagram.com/querrial/"
   },
   //--------------------------------------------------------------
   {
     id: "Logo Tasarımları",
     refKey: "sosyalmedya",
-    title: "Logo Tasarımları",
-    subtitle: "Tasarladığım illustration logo tasarımları.",
+    title: "Obliqrium",
+    subtitle: "✨ Logo Design, Logo Animation, Mograph",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/logotasarımları.mp4",
     imgAlt: "Logo Tasarımları",
-    popupProjects: [
-
-    ],
+    directLink: "https://www.instagram.com/obliqrium/"
   },
   //--------------------------------------------------------------
   {
     id: "Anime Motion Video",
     refKey: "sosyalmedya",
-    title: "Anime Motion Video",
-    subtitle: "AMV editlerim.",
+    title: "Kxllone",
+    subtitle: "💫 I think i love editing a bit",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/amvv.mp4",
     imgAlt: "Anime Motion Video",
-    popupProjects: [
-      {
-        icon: "",
-        title: "Draft",
-        description: "Jujutsu Kaisen editim.",
-        thumbnail: "/images/projelerim/AMV/Jujutsu Kaisen.png",
-        link: "https://www.instagram.com/p/Cyp1vmiNBF3/",
-        dateRange: "Ekim 2023 – Ekim 2023"
-      },
-      {
-        icon: "",
-        title: "Levi",
-        description: "Attack on Titan editim.",
-        thumbnail: "/images/projelerim/AMV/Attack on Titan.png",
-        link: "https://www.instagram.com/p/Cyqh40INTwe/",
-        dateRange: "Ekim 2023 – Ekim 2023"
-      },
-      {
-        icon: "",
-        title: "Itadori",
-        description: "Jujutsu Kaisen editim.",
-        thumbnail: "/images/projelerim/AMV/Jujutsu Kaisen (2).png",
-        link: "https://www.instagram.com/p/CytVK3Dt2od/",
-        dateRange: "Ekim 2023 – Ekim 2023"
-      },
-      {
-        icon: "",
-        title: "Gogeta vs Broly",
-        description: "Dragon Ball editim.",
-        thumbnail: "/images/projelerim/AMV/Dragon Ball.png",
-        link: "https://www.instagram.com/p/Cy30ncqtE5U/",
-        dateRange: "Ekim 2023 – Ekim 2023"
-      },
-      {
-        icon: "",
-        title: "Tanjiro",
-        description: "Demon Slayer editim.",
-        thumbnail: "/images/projelerim/AMV/Demon Slayer.png",
-        link: "https://www.instagram.com/p/Cy502RCtvgi/",
-        dateRange: "Ekim 2023 – Ekim 2023"
-      },
-      {
-        icon: "",
-        title: "Rengoku",
-        description: "Demon Slayer editim.",
-        thumbnail: "/images/projelerim/AMV/Demon Slayer (2).png",
-        link: "https://www.instagram.com/p/Cy_PI45NeJQ/",
-        dateRange: "Ekim 2023 – Ekim 2023"
-      },
-      {
-        icon: "",
-        title: "Smooth",
-        description: "Jujutsu Kaisen editim.",
-        thumbnail: "/images/projelerim/AMV/Jujutsu Kaisen (3).png",
-        link: "https://www.instagram.com/p/C3Kh_U_NXje/",
-        dateRange: "Şubat 2024 – Şubat 2024"
-      },
-      {
-        icon: "",
-        title: "Collab",
-        description: "Jujutsu Kaisen editim.",
-        thumbnail: "/images/projelerim/AMV/Jujutsu Kaisen (4).png",
-        link: "https://www.instagram.com/p/C5CvRhMoD_r/",
-        dateRange: "Mart 2024 – Mart 2024"
-      },
-      {
-        icon: "",
-        title: "Metal",
-        description: "Attack on Titan editim.",
-        thumbnail: "/images/projelerim/AMV/Attack on Titan (2).png",
-        link: "https://www.instagram.com/p/C7USrGaNCO8/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Collab",
-        description: "Kakegurui editim.",
-        thumbnail: "/images/projelerim/AMV/Kakegurui.png",
-        link: "https://www.instagram.com/p/C9LOEmxMvmp/",
-        dateRange: "Temmuz 2024 – Temmuz 2024"
-      },
-      {
-        icon: "",
-        title: "Trash",
-        description: "Hunter x Hunter editim.",
-        thumbnail: "/images/projelerim/AMV/Hunter x Hunter.png",
-        link: "https://www.instagram.com/p/C9mk5EttFpe/",
-        dateRange: "Temmuz 2024 – Temmuz 2024"
-      },
-    ],
+    directLink: "https://www.instagram.com/kxllone/"
   },
   //--------------------------------------------------------------
   {
     id: "Poster Tasarımları",
     refKey: "sosyalmedya",
-    title: "Poster Tasarımları",
-    subtitle: "Tasarladığım farklı tarzlarda poster tasarımları.",
+    title: "Nullavore",
+    subtitle: "💎 Poster Design Specialist",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/postertasarımları.mp4",
     imgAlt: "Poster Tasarımları",
-    popupProjects: [
-      {
-        icon: "",
-        title: "Attack on Titan",
-        description: "Attack on Titan brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/AoT.jpg",
-        link: "https://www.instagram.com/p/DBTlCgDghtv/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Lie",
-        description: "Lie brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/Lie.jpg",
-        link: "https://www.instagram.com/p/DBTlQj2AzX4/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Samurai",
-        description: "Samurai brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/Samurai.jpg",
-        link: "https://www.instagram.com/p/DBTlcAngJ-E/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Statue",
-        description: "Statue brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/Statue.jpg",
-        link: "https://www.instagram.com/p/DBTlYbHgUie/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "WaytoDie",
-        description: "WaytoDie brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/WaytoDie.jpg",
-        link: "https://www.instagram.com/p/DBTlKu-g6-2/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Liminal",
-        description: "Liminal brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/Liminal.jpg",
-        link: "https://www.instagram.com/p/DBTlgeygmH9/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Dororo",
-        description: "Dororo brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/Dororo.jpg",
-        link: "https://www.instagram.com/p/DBTlGOvAcQd/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Muazprod",
-        description: "Muazprod brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/Muazprod.jpg",
-        link: "https://www.instagram.com/p/C3LH5BgMN1C/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Signature",
-        description: "Signature brutal style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/Signature.jpg",
-        link: "https://www.instagram.com/p/C1G-IjTA2De/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-      {
-        icon: "",
-        title: "Eminem",
-        description: "Eminem album cover style poster tasarımı.",
-        thumbnail: "/images/projelerim/Poster/Eminem.jpg",
-        link: "https://www.instagram.com/p/DBVzG1qs8EQ/",
-        dateRange: "Mayıs 2024 – Mayıs 2024"
-      },
-    ],
+    directLink: "https://www.instagram.com/nullavore/"
   },
   //--------------------------------------------------------------
   {
     id: "Car Motion Video",
     refKey: "sosyalmedya",
-    title: "Car Motion Video",
-    subtitle: "CMV editlerim.",
+    title: "Dxllone",
+    subtitle: "🏁 Passionate About Cars",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/carmotionvideo.mp4",
     imgAlt: "Car Motion Video",
-    popupProjects: [
-      {
-        icon: "",
-        title: "Nissan GTR",
-        description: "Nissan GTR editim.",
-        thumbnail: "/images/projelerim/CMV/Nissan GTR.png",
-        link: "https://www.instagram.com/p/CvQQwy0tIIK/",
-        dateRange: "Temmuz 2023 – Temmuz 2023"
-      },
-      {
-        icon: "",
-        title: "Nissan GTR",
-        description: "Nissan GTR editim.",
-        thumbnail: "/images/CMV/Nissan GTR (2).png",
-        link: "https://www.instagram.com/p/CuhHaHTuAdZ/",
-        dateRange: "Temmuz 2023 – Temmuz 2023"
-      },
-      {
-        icon: "",
-        title: "Supra MK4",
-        description: "Supra MK4 editim.",
-        thumbnail: "/images/projelerim/CMV/Supra MK4.png",
-        link: "https://www.instagram.com/p/CvegRmhNrP3/",
-        dateRange: "Ağustos 2023 – Ağustos 2023"
-      },
-      {
-        icon: "",
-        title: "Ferrari F40",
-        description: "Ferrari F40 editim.",
-        thumbnail: "/images/projelerim/CMV/Ferrari F40.png",
-        link: "https://www.instagram.com/p/CvktxmXttAr/",
-        dateRange: "Ağustos 2023 – Ağustos 2023"
-      },
-      {
-        icon: "",
-        title: "BMW M4",
-        description: "BMW M4 editim.",
-        thumbnail: "/images/projelerim/CMV/BMW M4.png",
-        link: "https://www.instagram.com/p/Cvm8zCDtDL1/",
-        dateRange: "Ağustos 2023 – Ağustos 2023"
-      },
-      {
-        icon: "",
-        title: "Honda NSX",
-        description: "Honda NSX editim.",
-        thumbnail: "/images/projelerim/CMV/Honda NSX.png",
-        link: "https://www.instagram.com/p/CvpPU7ntd16/",
-        dateRange: "Ağustos 2023 – Ağustos 2023"
-      },
-      {
-        icon: "",
-        title: "Mercedes AMG GTR",
-        description: "Mercedes AMG GTR editim.",
-        thumbnail: "/images/projelerim/CMV/Mercedes AMG GTR.png",
-        link: "https://www.instagram.com/p/Cvznjp3NAqA/",
-        dateRange: "Ağustos 2023 – Ağustos 2023"
-      },
-    ],
-  },
-  //--------------------------------------------------------------
-  {
-    id: "2D Animasyonlar",
-    refKey: "sosyalmedya",
-    title: "2D Animasyonlar",
-    subtitle: "Oluşturduğum farklı tarzlarda 2D animasyonlar.",
-    bg: "#E6F1FF",
-    video: "/images/projelerim/videos/2danimasyonlar.mp4",
-    imgAlt: "2D Animasyonlar",
-    popupProjects: [
-
-    ],
-  },
-  //--------------------------------------------------------------
-  {
-    id: "Sinematik Felsefe",
-    refKey: "sosyalmedya",
-    title: "Sinematik Felsefe",
-    subtitle: "Oluşturduğum sinematik felsefe editlerim.",
-    bg: "#E6F1FF",
-    video: "/images/projelerim/videos/sinematikfelsefe.mp4",
-    imgAlt: "Sinematik Felsefe",
-    popupProjects: [
-
-    ],
-  },
-  //--------------------------------------------------------------
-  {
-    id: "Çizim Projelerim",
-    refKey: "sosyalmedya",
-    title: "Çizim Projelerim",
-    subtitle: "Karaladığım şeyler.",
-    bg: "#E6F1FF",
-    video: "/images/projelerim/videos/çizimprojelerim.mp4",
-    imgAlt: "Çizim Projelerim",
-    popupProjects: [
-
-    ],
+    directLink: "https://www.instagram.com/dxllone/"
   },
   //--------------------------------------------------------------
   {
     id: "Sinematik Mograph",
     refKey: "sosyalmedya",
-    title: "Sinematik Mograph",
-    subtitle: "Oluşturduğum sinematik mographlarım.",
+    title: "Axiomeia",
+    subtitle: "✨ Doğrunun Estetiği",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/sinematikmograph.mp4",
     imgAlt: "Sinematik Mograph",
-    popupProjects: [
-
-    ],
+    directLink: "https://www.instagram.com/axiomeia/"
   },
   //--------------------------------------------------------------
   {
     id: "3D Animasyonlar",
     refKey: "sosyalmedya",
-    title: "3D Animasyonlar",
-    subtitle: "Oluşturduğum farklı tarzlarda 3D animasyonlar.",
+    title: "Voxelith",
+    subtitle: "💎 3D Animation, Modelling and Sculpting",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/3danimasyonlar.mp4",
     imgAlt: "3D Animasyonlar",
-    popupProjects: [
-
-    ],
+    directLink: "https://www.instagram.com/voxelith/"
   },
   //--------------------------------------------------------------
-  {
+  /*{
     id: "Motion Grafikler",
     refKey: "sosyalmedya",
     title: "Motion Grafikler",
@@ -577,9 +215,31 @@ const projectData = [
     popupProjects: [
 
     ],
+  },*/
+  //--------------------------------------------------------------
+  {
+    id: "Müzik Prodüksiyonu",
+    refKey: "sosyalmedya",
+    title: "Noctimane",
+    subtitle: "🎧 Phonk and Dark Ambient",
+    bg: "#E6F1FF",
+    video: "/images/projelerim/videos/muzikproduksiyonu.mp4",
+    imgAlt: "Müzik Prodüksiyonu",
+    directLink: "https://www.instagram.com/noctimane/"
   },
   //--------------------------------------------------------------
   {
+    id: "2D Animasyonlar",
+    refKey: "sosyalmedya",
+    title: "Inthoriart",
+    subtitle: "🖌️ 2D Animation, Modelling and Drawing",
+    bg: "#E6F1FF",
+    video: "/images/projelerim/videos/2danimasyonlar.mp4",
+    imgAlt: "2D Animasyonlar",
+    directLink: "https://www.instagram.com/inthoriart/"
+  },
+  //--------------------------------------------------------------
+  /*{
     id: "3D Modeller",
     refKey: "sosyalmedya",
     title: "3D Modeller",
@@ -590,22 +250,20 @@ const projectData = [
     popupProjects: [
 
     ],
-  },
+  },*/
   //--------------------------------------------------------------
   {
     id: "Oyun Kesitlerim",
     refKey: "sosyalmedya",
-    title: "Oyun Kesitlerim",
-    subtitle: "En iyi oyun kesitlerim.",
+    title: "Callmekenopsia",
+    subtitle: "🎮 Just chilling, at most.",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/oyunkesitlerim.mp4",
     imgAlt: "Oyun Kesitlerim",
-    popupProjects: [
-
-    ],
+    directLink: "https://www.instagram.com/callmekenopsia/"
   },
   //--------------------------------------------------------------
-  {
+  /*{
     id: "3D Sculptlar",
     refKey: "sosyalmedya",
     title: "3D Sculptlar",
@@ -616,48 +274,18 @@ const projectData = [
     popupProjects: [
 
     ],
-  },
+  },*/
   //--------------------------------------------------------------
   {
     id: "Sinematik Projelerim",
     refKey: "sosyalmedya",
-    title: "Sinematik Projelerim",
-    subtitle: "Sinemaya dair oluşturduğum her şey.",
+    title: "Nxllone",
+    subtitle: "🍿 Cinematography",
     bg: "#E6F1FF",
     video: "/images/projelerim/videos/sinematikprojelerim.mp4",
     imgAlt: "Sinematik Projelerim",
-    popupProjects: [
-
-    ],
+    directLink: "https://www.instagram.com/nxllone/"
   },
-  //--------------------------------------------------------------
-  {
-    id: "Proje Dosyaları",
-    refKey: "sosyalmedya",
-    title: "Proje Dosyaları",
-    subtitle: "Satılık proje dosyalarım.",
-    bg: "#E6F1FF",
-    video: "/images/projelerim/videos/projedosyalarım.mp4",
-    imgAlt: "Proje Dosyaları",
-    popupProjects: [
-
-    ],
-  },
-  //--------------------------------------------------------------
-  {
-    id: "Müzik Prodüksiyonu",
-    refKey: "sosyalmedya",
-    title: "Müzik Prodüksiyonu",
-    subtitle: "Oluşturduğum farklı tarzda müzikler.",
-    bg: "#E6F1FF",
-    video: "/images/projelerim/videos/muzikproduksiyonu.mp4",
-    imgAlt: "Müzik Prodüksiyonu",
-    popupProjects: [
-
-    ],
-  },
-  //--------------------------------------------------------------
-
 ];
 
 const AppShowcase = () => {
@@ -678,59 +306,59 @@ const AppShowcase = () => {
   }, []);
 
   const safePlay = async (video) => {
-  if (!video) return;
+    if (!video) return;
 
-  // Video hâlâ yüklenmemişse play yapma
-  if (video.readyState < 2) return;
+    // Video hâlâ yüklenmemişse play yapma
+    if (video.readyState < 2) return;
 
-  try {
-    if (video.paused) {
-      await video.play();
+    try {
+      if (video.paused) {
+        await video.play();
+      }
+    } catch (error) {
+      console.warn("Play error:", error);
     }
-  } catch (error) {
-    console.warn("Play error:", error);
-  }
-};
+  };
 
 
-useEffect(() => {
-  if (window.innerWidth > 1024) return; // sadece mobil
+  useEffect(() => {
+    if (window.innerWidth > 1024) return; // sadece mobil
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(async (entry) => {
-        const index = Number(entry.target.dataset.index);
-        const vid = videoRefs.current[index];
-        if (!vid) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(async (entry) => {
+          const index = Number(entry.target.dataset.index);
+          const vid = videoRefs.current[index];
+          if (!vid) return;
 
-        if (entry.isIntersecting) {
-          // Diğer videoları durdur
-          videoRefs.current.forEach((v, i) => {
-            if (i !== index && v && !v.paused) {
-              v.pause();
-              v.currentTime = 0;
-            }
-          });
+          if (entry.isIntersecting) {
+            // Diğer videoları durdur
+            videoRefs.current.forEach((v, i) => {
+              if (i !== index && v && !v.paused) {
+                v.pause();
+                v.currentTime = 0;
+              }
+            });
 
-          vid.currentTime = 0;
-          await safePlay(vid); // ✅ güvenli play fonksiyonu
-          setActiveIndex(index);
-        } else if (activeIndex === index) {
-          vid.pause();
-          vid.currentTime = 0;
-          setActiveIndex(null);
-        }
-      });
-    },
-    { threshold: 0.6 }
-  );
+            vid.currentTime = 0;
+            await safePlay(vid); // ✅ güvenli play fonksiyonu
+            setActiveIndex(index);
+          } else if (activeIndex === index) {
+            vid.pause();
+            vid.currentTime = 0;
+            setActiveIndex(null);
+          }
+        });
+      },
+      { threshold: 0.6 }
+    );
 
-  itemRefs.current.forEach((el) => {
-    if (el) observer.observe(el);
-  });
+    itemRefs.current.forEach((el) => {
+      if (el) observer.observe(el);
+    });
 
-  return () => observer.disconnect();
-}, [activeIndex]);
+    return () => observer.disconnect();
+  }, [activeIndex]);
 
 
   const getLoopedColSpan = (index) => {
@@ -768,8 +396,19 @@ useEffect(() => {
       >
         {projectData.map((project, index) => {
           const colSpan = getLoopedColSpan(index);
+          const isActiveMobile =
+            window.innerWidth <= 1024 && activeIndex === index;
 
-          const isActiveMobile = window.innerWidth <= 1024 && activeIndex === index;
+          const handleClick = () => {
+            playSound("/images/sfx/clickin.wav", 1);
+
+            // Eğer directLink varsa popup yerine doğrudan yönlendir
+            if (project.directLink) {
+              window.open(project.directLink, "_blank");
+            } else {
+              handleProjectClick(project);
+            }
+          };
 
           return (
             <div
@@ -790,15 +429,12 @@ useEffect(() => {
                   playSound("/images/sfx/hoverout.wav", 1);
                 }
               }}
+              onClick={handleClick}
               className={`hover-target relative overflow-hidden cursor-pointer group
-  border border-white/20 
-  backdrop-blur-sm transition-all duration-300
-  ${colSpan} row-span-1
-  ${isActiveMobile ? "mobile-active" : ""}`}
-              onClick={() => {
-                handleProjectClick(project);
-                playSound("/images/sfx/clickin.wav", 1);
-              }}
+              border border-white/20 
+              backdrop-blur-sm transition-all duration-300
+              ${colSpan} row-span-1
+              ${isActiveMobile ? "mobile-active" : ""}`}
             >
               {/* Eğer video varsa MP4 oynat, yoksa resim göster */}
               {project.video ? (
@@ -808,12 +444,11 @@ useEffect(() => {
                   playsInline
                   loop
                   className={`absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500
-    group-hover:opacity-100 ${isActiveMobile ? "opacity-100" : ""}`}
+                  group-hover:opacity-100 ${isActiveMobile ? "opacity-100" : ""}`}
                   preload="auto"
                 >
                   <source src={project.video} type="video/mp4" />
                 </video>
-
               ) : (
                 <img
                   src={project.img}
@@ -821,7 +456,6 @@ useEffect(() => {
                   className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 />
               )}
-
 
               {/* Hover efekti siyah overlay */}
               <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -832,14 +466,14 @@ useEffect(() => {
               {/* Başlık & Alt başlık */}
               <div
                 className={`absolute bottom-4 left-4 right-4 z-10 transition-transform duration-500
-    group-hover:-translate-y-1 ${isActiveMobile ? "-translate-y-1" : ""}`}
+                group-hover:-translate-y-1 ${isActiveMobile ? "-translate-y-1" : ""}`}
               >
                 <h2 className="text-xl font-semibold text-white mb-1">
                   {project.title}
                 </h2>
                 <div
                   className={`opacity-0 transition-opacity duration-500
-      group-hover:opacity-100 ${isActiveMobile ? "opacity-100" : ""}`}
+                  group-hover:opacity-100 ${isActiveMobile ? "opacity-100" : ""}`}
                 >
                   {project.subtitle && (
                     <p className="text-sm text-white/80 line-clamp-2">
@@ -848,7 +482,6 @@ useEffect(() => {
                   )}
                 </div>
               </div>
-
 
               {/* Sağ alt köşe ikonu */}
               <div className="absolute bottom-4 right-4 z-10 opacity-0 group-hover:opacity-100 transition duration-500">
@@ -865,7 +498,7 @@ useEffect(() => {
           onClose={() => {
             setShowPopup(false);
             playSound("/images/sfx/clickout.wav", 1);
-            }}
+          }}
         />
       )}
     </section>
