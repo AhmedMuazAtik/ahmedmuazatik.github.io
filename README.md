@@ -54,7 +54,8 @@
 
 <h2>📬 İletişim</h2>
 <ul>
-  <li>📧 <strong>E-posta:</strong> <a href="mailto:itzanemoiabusiness@gmail.com">itzanemoia@gmail.com</a></li>
+  <li>📧 <strong>E-posta:</strong> <a href="mailto:itzanemoiabusiness@gmail.com">itzanemoiabusiness@gmail.com</a></li>
   <li>🌐 <strong>Website:</strong> <a href="https://ahmedmuazatik.github.io/" target="_blank">ahmedmuazatik.github.io</a></li>
 </ul>
+
 
