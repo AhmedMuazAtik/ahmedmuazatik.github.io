@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Ahmed Muaz Atik — Portfolyo Web Sitesi</h1>
+<h1 align="center">🌐 Muaz Atik — Portfolyo Web Sitesi</h1>
 
 <p align="center">
   <em>Modern web teknolojileri, yüksek etkileşim ve güçlü görsel tasarımın birleştiği kişisel portfolyo projem.</em>
@@ -55,7 +55,7 @@
 <h2>📬 İletişim</h2>
 <ul>
   <li>📧 <strong>E-posta:</strong> <a href="mailto:itzanemoiabusiness@gmail.com">itzanemoiabusiness@gmail.com</a></li>
-  <li>🌐 <strong>Website:</strong> <a href="https://ahmedmuazatik.github.io/" target="_blank">ahmedmuazatik.github.io</a></li>
+  <li>🌐 <strong>Website:</strong> <a href="https://muazatik.github.io/" target="_blank">muazatik.github.io</a></li>
 </ul>
 
 
